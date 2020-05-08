@@ -1,1 +1,1 @@
-# flexbox-study-1
+Учебный проект flexbox-верстки
