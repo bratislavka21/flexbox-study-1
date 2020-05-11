@@ -157,3 +157,7 @@ main {
   height: 425px;
   background: #6e78b7;
 }
+
+.cards .card h3 {
+  background: #d86a43;
+}
