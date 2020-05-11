@@ -113,7 +113,7 @@ main {
    Секция 3
   =============================================
 */
-article {
+.news article {
   background-color: white;
 }
 
@@ -140,4 +140,14 @@ article {
   order: 1;
   margin-right: 0;
   margin-left: 55px;
+}
+
+/*
+  =============================================
+   Секция 4
+  =============================================
+*/
+.cards {
+  display: flex;
+  justify-content: space-around;
 }
