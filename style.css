@@ -113,3 +113,31 @@ main {
    Секция 3
   =============================================
 */
+article {
+  background-color: white;
+}
+
+.news article {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 25px 15px 7px;
+  margin-bottom: 40px;
+}
+
+.news article img {
+  width: 340px;
+  height: 225px;
+  margin-right: 55px;
+}
+
+.news article .description {
+  color: #511a99;
+  font-size: 16px;
+  width: 760px;
+}
+
+.news article:nth-child(even) img{
+  order: 1;
+  margin-right: 0;
+  margin-left: 55px;
+}
