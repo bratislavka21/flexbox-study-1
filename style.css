@@ -11,7 +11,6 @@ body {
 .container {
   max-width: 1195px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 header {
@@ -28,4 +27,17 @@ header .menu a {
   width: 260px;
   background: #d86a43;
   text-align: center;
+  padding: 15px 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 8px;
+  color: #fefcfc;
+  box-shadow: 0 0 10px -1px #000;
+}
+
+header .menu a:hover {
+  box-shadow: none;
+  background-color: #e44d26;
 }
