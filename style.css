@@ -26,4 +26,5 @@ header .menu {
 header .menu a {
   width: 260px;
   background: #d86a43;
+  text-align: center;
 }
