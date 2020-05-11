@@ -19,6 +19,10 @@ header {
   padding: 55px 0;
 }
 
+header .menu {
+  display: flex;
+}
+
 header .menu a {
   width: 260px;
   background: #d86a43;
