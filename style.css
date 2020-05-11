@@ -21,6 +21,7 @@ header {
 
 header .menu {
   display: flex;
+  justify-content: space-around;
 }
 
 header .menu a {
