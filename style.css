@@ -175,6 +175,7 @@ main {
 
 .cards .card .description p {
   margin: 0;
+  line-height: 1.5;
 }
 
 .cards .card button {
