@@ -204,4 +204,7 @@ main {
 */
 footer {
   background: #6e78b7;
+  font-size: 21px;
+  color: white;
+  text-align: center;
 }
