@@ -179,6 +179,7 @@ main {
 .cards .card button {
   width: 260px;
   font-size: 24px;
+  font-weight: bold;
   color: white;
   text-transform: uppercase;
   background-color: #d86a43;
