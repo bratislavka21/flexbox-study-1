@@ -213,3 +213,39 @@ footer {
 footer p {
   margin: 0;
 }
+
+/*
+  =============================================
+   Адаптивная верстка
+  =============================================
+*/
+@media (max-width: 1200px) {
+    .technology {
+      flex-direction: column;
+    }
+
+    .technology img {
+      max-width: 620px;
+      width: 100%;
+      height: auto;
+      max-height: 315px;
+    }
+
+    .technology .arrow {
+      display: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    header .menu {
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+    
+    header .menu a {
+      width: 90%;
+      margin-bottom: 40px;
+    }
+}
