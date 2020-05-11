@@ -159,6 +159,7 @@ main {
   color: #fefcfc;
   font-size: 18.5px;
   box-shadow: 0 0 10px -1px #000;
+  display: flex;
 }
 
 .cards .card h3 {
