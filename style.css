@@ -51,6 +51,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 60px;
 }
 
 .technology img {
@@ -61,4 +62,16 @@ main {
 .technology .arrow {
   width: 41px;
   height: 22px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 360px;
+  height: 230px;
+  margin-bottom: 35px;
 }
