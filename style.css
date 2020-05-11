@@ -156,10 +156,13 @@ main {
   width: 400px;
   height: 425px;
   background: #6e78b7;
+  color: #fefcfc;
 }
 
 .cards .card h3 {
   background: #d86a43;
   margin: 0;
   padding: 25px 0 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
