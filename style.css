@@ -18,3 +18,8 @@ header {
   background: #6e78b7;
   padding: 55px 0;
 }
+
+header .menu a {
+  width: 260px;
+  background: #d86a43;
+}
