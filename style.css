@@ -8,6 +8,12 @@ body {
   font-family: Arial;
 }
 
+.container {
+  max-width: 1195px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
 header {
   background: #6e78b7;
 }
