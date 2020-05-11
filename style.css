@@ -157,6 +157,7 @@ main {
   height: 425px;
   background: #6e78b7;
   color: #fefcfc;
+  box-shadow: 0 0 10px -1px #000;
 }
 
 .cards .card h3 {
@@ -169,4 +170,19 @@ main {
 
 .cards .card .description {
   padding: 35px 40px 0 40px;
+}
+
+.cards .card button {
+  width: 260px;
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #d86a43;
+  border: 0;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  border-radius: 8px;
+  padding: 14px 0;
+  box-shadow: 0 0 10px -1px #000;
 }
