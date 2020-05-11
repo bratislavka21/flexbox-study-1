@@ -44,4 +44,21 @@ header .menu a:hover {
 
 main {
   background: #deeafb;
+  padding: 55px 0;
+}
+
+.technology {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.technology img {
+  width: 360px;
+  height: 200px;
+}
+
+.technology .arrow {
+  width: 41px;
+  height: 22px;
 }
