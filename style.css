@@ -150,11 +150,12 @@ main {
 .cards {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .cards .card {
   width: 400px;
-  height: 425px;
+  /*height: 425px;*/
   background: #6e78b7;
   color: #fefcfc;
   font-size: 18.5px;
@@ -256,6 +257,11 @@ footer p {
     }
 }
 
+@media (max-width: 991px) {
+    .cards .card {
+      margin-bottom: 80px;
+    }
+}
 
 @media (max-width: 768px) {
     header .menu {
@@ -293,5 +299,19 @@ footer p {
     .news article:nth-child(even) img{
       order: 0;
       margin-left: 0;
+    }
+
+    .cards .card {
+      font-size: 29px;
+      max-width: 625px;
+      width: 100%;
+      min-height: 665px;
+    }
+
+    .cards .card button {
+      font-size: 29px;
+      width: 315px;
+      height: 65px;
+      padding: 17px;
     }
 }
