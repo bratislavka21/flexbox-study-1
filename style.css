@@ -314,4 +314,8 @@ footer p {
       height: 65px;
       padding: 17px;
     }
+    
+    footer {
+      padding: 55px 0 50px;
+    }
 }
