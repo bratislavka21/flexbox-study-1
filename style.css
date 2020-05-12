@@ -239,6 +239,18 @@ footer p {
     .technology .arrow {
       display: none;
     }
+    
+    .gallery {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .gallery img {
+      height: auto;
+      flex-grow: 1;
+      margin-bottom: 35px;
+    }
 }
 
 
