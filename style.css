@@ -245,6 +245,15 @@ footer p {
       flex-grow: 1;
       margin-bottom: 35px;
     }
+    
+    .news article img {
+      flex-shrink: 1;
+    }
+
+    .news article .description {
+      width: 100%;
+      flex-shrink: 2;
+    }
 }
 
 
@@ -258,5 +267,31 @@ footer p {
     header .menu a {
       width: 90%;
       margin-bottom: 40px;
+    }
+    
+    .news article {
+      
+    }
+
+    .news article {
+      align-items: center;
+      flex-direction: column;
+      padding: 50px 40px 60px 40px;
+      margin: 0 24px 70px;
+    }
+
+    .news article img {
+      width: 100%;
+      height: auto;
+      max-height: 350px;
+    }
+
+    .news article .description {
+      font-size: 25px;
+    }
+
+    .news article:nth-child(even) img{
+      order: 0;
+      margin-left: 0;
     }
 }
